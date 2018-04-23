@@ -6,5 +6,5 @@ setup(name='blanket-helper',
       author='MBmasher',
       author_email='mbmasher@gmail.com',
       packages=['main'],
-	  requires=['numpy']
+	  requires=['Tkinter']
      )
