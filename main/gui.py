@@ -229,7 +229,7 @@ while True:
         root = Tkinter.Tk()
         root.resizable(width=False, height=False)
         root.wm_attributes("-topmost", 1)
-        root.title("Weighted Objects")
+        root.title("Blanket Helper")
 
         Tkinter.Label(root, fg="red", text="Found {} perfect sliders.".format(len(slider_list))).grid(
             row=0, column=0, columnspan=3)
